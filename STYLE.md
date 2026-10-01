@@ -2,6 +2,14 @@
 
 Every image or video made for a post follows these rules.
 
+## How to build images (preferred: HTML + headless Chromium)
+Build each image as a 1080x1350 HTML page and screenshot it. This gives magazine-quality typography.
+1. `cd design && npm init -y && npm i @fontsource/inter @fontsource/anton @fontsource/space-grotesk @fontsource/dm-serif-display`
+2. Copy the closest template (`eight-weeks.html` = dark stat grid, `rbi.html` = navy header + bar chart + option cards, `trade.html` = light timeline + "My view" banner). All link `base.css`.
+3. Render: `python3 render.py $PWD/my.html $PWD/my.png` (Playwright + Chromium are preinstalled; never run `playwright install`).
+4. Open the PNG and check for overflow, overlap or empty space before uploading.
+Design moves that work: one giant hero number or headline (Anton), a coloured pill tag for the theme, icon chips, big stat numbers (Space Grotesk), a strong closing card ("Which one turns first?" or "My view"), the PS monogram signature. Use the ₹ sign via the `.rs` class.
+
 ## Format
 - Image: 1080 x 1350 px PNG (4:5 portrait, best reach in the LinkedIn feed).
 - Video: 1080 x 1350 or 1080 x 1920, H.264 MP4, yuv420p, `-movflags +faststart`.

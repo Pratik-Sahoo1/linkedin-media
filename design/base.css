@@ -1,0 +1,17 @@
+@font-face{font-family:Anton;src:url(node_modules/@fontsource/anton/files/anton-latin-400-normal.woff2)}
+@font-face{font-family:Inter;font-weight:400;src:url(node_modules/@fontsource/inter/files/inter-latin-400-normal.woff2)}
+@font-face{font-family:Inter;font-weight:600;src:url(node_modules/@fontsource/inter/files/inter-latin-600-normal.woff2)}
+@font-face{font-family:Inter;font-weight:700;src:url(node_modules/@fontsource/inter/files/inter-latin-700-normal.woff2)}
+@font-face{font-family:Inter;font-weight:800;src:url(node_modules/@fontsource/inter/files/inter-latin-800-normal.woff2)}
+@font-face{font-family:Grotesk;font-weight:700;src:url(node_modules/@fontsource/space-grotesk/files/space-grotesk-latin-700-normal.woff2)}
+@font-face{font-family:Serif;src:url(node_modules/@fontsource/dm-serif-display/files/dm-serif-display-latin-400-normal.woff2)}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1350px;overflow:hidden}
+body{font-family:Inter,"DejaVu Sans",sans-serif;-webkit-font-smoothing:antialiased}
+.num{font-family:Grotesk,"DejaVu Sans",sans-serif;font-weight:700;letter-spacing:-1px}
+.rs{font-family:"DejaVu Sans",sans-serif;font-weight:700}
+.pill{display:inline-flex;align-items:center;gap:10px;padding:10px 20px;border-radius:999px;font-weight:700;font-size:20px;letter-spacing:2px;text-transform:uppercase}
+.footer{position:absolute;left:72px;right:72px;bottom:44px;display:flex;justify-content:space-between;align-items:center;font-size:18px}
+.sig{display:flex;align-items:center;gap:14px;font-weight:700;font-size:21px}
+.sig .mono{width:46px;height:46px;border-radius:50%;display:grid;place-items:center;font-weight:800;font-size:18px}
+svg{display:block}
