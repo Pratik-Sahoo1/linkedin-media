@@ -1,0 +1,16 @@
+{
+  "kicker": "INDIAN MARKET WRAP  |  8 OCT 2026",
+  "headline": "Sensex at a 32-month low",
+  "indices": [
+    {"name": "NIFTY 50", "value": "22,232", "change": "-1.64%"},
+    {"name": "SENSEX", "value": "71,593", "change": "-1.44%"}
+  ],
+  "section_title": "What weighed on the market",
+  "bullets": [
+    "RBI hiked repo rate 25 bps, stance: calibrated tightening",
+    "Brent crude above $102 on Middle East supply worries",
+    "US 10-year yield at 5.31%, near 2002 highs",
+    "FPIs sold over Rs 25,000 cr of Indian stocks in October"
+  ],
+  "footer": "Sources: HDFC Sky, Business Standard. For information only, not investment advice."
+}
